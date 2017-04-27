@@ -1,2 +1,2 @@
-# sarahlessner.github.io
-Portfolio for Sarah Lessner
+# basic-portfolio
+UCB Homework 01

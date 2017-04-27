@@ -7,6 +7,8 @@ body {
 	background-image: url("../images/topography.png");
 	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
 	font-size: 12px;
+	margin: 0;
+	
 
 }
 
@@ -21,35 +23,49 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color:white;
+}
+
+
+
 
 #container {
 	background: #f1eef3;
-	width: 100%;
+	width: 1200px;
+	min-width: 100%;
 	top: 0;
 	left: 0;
 	right: 0;
 	border-bottom: 1px solid #777777;
 	position: absolute;
+
+}
+
+#headercontent {
+	min-width: 100%;
+	
 }
 
 #myname {
 	color: #f1eef3;
 	background: #ab90f0;
 	padding: 20px;
-	width: 20%;
-	margin: 0 auto 0 160px;
+	margin: auto;
+	margin-left: 160px;
 	float: left;
 	text-align: center;
 	position: relative;
 }
 
 #navigation {
-	float: right;
-	width: 30%;
-	text-align: left;
-	padding: 20px;
-	position: relative;
-	margin-right: 200px;
+    float: right;
+    text-align: left;
+    position: absolute;
+    right: 0;
+    left: 860px;
+    padding: 20px;
+    min-width: 250px;
 }
 
 .navitem {
@@ -57,12 +73,13 @@ a {
 	font-size: 12px;
 	float: left;
 	padding: 5px;
+
 }
 
 #content {
 	clear: both;
-	width: 950px;
-	margin: 100px auto 100px 150px;
+	width: 960px;
+	margin: 100px auto 100px 160px;
 	overflow: auto;
 }
 
@@ -116,12 +133,19 @@ a {
 	overflow: auto;
 }
 
+#placeholderarea {
+	width: 100%;
+	margin: auto;
+}
+
 .placeholderbox {
 	float: left;
 	/*padding: 15px;*/
 	position: relative;
 	margin: 15px;
+	overflow: auto;
 }
+
 
 .placeholderlinks {
 	background: #ab90f0;
@@ -132,8 +156,15 @@ a {
 	right:0;
 	left:0;
 	bottom: 10px;
-	font-size: 14px;
+	font-size: 16px;
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
 }
+
+.placeholderlinks:hover {
+	background: #f1eef3;
+	color: #ab90f0;
+}
+
 
 #myform {
 	clear: both;
@@ -174,17 +205,17 @@ label {
 
 #connect {
 	float: left;
-	padding: 20px;
+	padding: 15px;
 	background: #f1eef3;
-	height: 180px;
+	height: 200px;
 	width: 270px;
 	margin: 0 auto 0 30px;
-	overflow: auto;
 
 }
 
 #connectme {
 	color: #ab90f0;
+	margin: 20px;
 	padding-bottom: 20px;
 	border-bottom: 1px solid #777777;
 	font-size: 16px;
@@ -193,8 +224,12 @@ label {
 
 .icons {
 	position: relative;
-	padding-top: 15px;
-	padding-left: 15px;
+	margin: 20px;
+	
+}
+
+.icon:hover {
+	opacity: 0.5;
 }
 
 
@@ -212,6 +247,7 @@ footer {
 	width: 100%;
 	margin: 0;
 	padding: 20px;
+	min-width: 100%;
 }
 
 
