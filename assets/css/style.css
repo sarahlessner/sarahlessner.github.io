@@ -97,7 +97,7 @@ a:hover {
 #contentboxcontact {
 	float: left;
 	background: #f1eef3;
-	height: 460px;
+	height: 475px;
 	width: 650px;
 	padding: 20px;
 	overflow: auto;
@@ -116,9 +116,11 @@ a:hover {
 	float: left;
 	padding-right: 20px;
 	padding-bottom: 20px;
+	padding: 10px 20px 20px 0;
 }
 
 .textcontent {
+	padding-top: 10px;
 	line-height: 18px;
 	color: #777777;
 }
@@ -170,6 +172,8 @@ a:hover {
 	clear: both;
 	width: 100%;
 	color: #777777;
+	padding-top: 10px;
+	font-size: 14px;
 }
 
 
@@ -186,6 +190,7 @@ label {
 	padding-bottom: 5px;
 }
 
+
 #msgbox {
 	height: 150px;
 	width: 100%;
@@ -200,7 +205,12 @@ label {
 	color: #f1eef3;
 	height: 30px;
 	width: 80px;
-	border: none;
+	border: 1px solid #666666;
+}
+
+#submit:hover {
+	background: #f1eef3;
+	color: #ab90f0;
 }
 
 #connect {
