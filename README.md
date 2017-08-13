@@ -1,2 +1,1 @@
-# basic-portfolio
-UCB Homework 01
+# professional-portfolio
